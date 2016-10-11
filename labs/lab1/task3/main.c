@@ -89,8 +89,12 @@ int main(void) {
 		    	} /*всегда получаем 0, см. график */
 	    	break;
 	    default:
-	    	result = (op * abs(a+1)) + (op * abs(b+1));
-		printf("\nResult: def( a, b) = %.0f\n", result);	
+	    	if (abs(a+1) != 0 && abs(b+1) != 0) {
+		    	result = (op % abs(a+1)) + (op % abs(b+1));
+			printf("\nResult: def( a, b) = %.0f\n", result);
+			} else {
+			printf("Division by zero, result can't be computed \n");
+			}	
 		break;
 	    }
 	    
