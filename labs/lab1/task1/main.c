@@ -27,7 +27,7 @@ int main(void)
 
 	printf("\n Results: \n");
 	
-	if( x - y != 0, z!= 0, (x - y) > 0) {
+	if( x - y != 0 && z!= 0 && (x - y) > 0) {
 		a0 = (pow(x, y + 1)) / sqrt(x - y);
 		printf("a0 = %.10f\n", a0);
 		} else {
@@ -48,10 +48,13 @@ int main(void)
 		printf("Answer can't be computed, a2 is not a number.\n");
 		}
 		
-	/*дописать условия*/
+	if( x - y != 0 && z!= 0 && (x - y) > 0 && (x + y)!= 0 && sin(x) != 0) {
+		a = a0 + a1 + a2;
+		printf("a = %.10f\n", a);
+		} else {
+		printf("a0 can't be computed\n");
+		}
 		
-	a = a0 + a1 + a2;
-	printf("a = %.10f\n", a);
 
 
 	return 0;
