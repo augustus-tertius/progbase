@@ -73,12 +73,19 @@ int main(void) {
 	    	break;
 	    case 7:
 	    case 13:
+	    	if( a == 0 && b < 0) { 
+			printf("Division by zero, result can't be computed \n");
+			} else {
+		    	result = pow(a, b);
+		    	printf("\nResult: a^b = %f\n", result);
+		    	} 
+		/*    	
 		if( a != 0 && b > 0) { 
 			result = pow(a, b);
 		    	printf("\nResult: a^b = %f\n", result);
 		    	} else{
 		    	printf("Division by zero, result can't be computed \n");
-		    	} 
+		    	} */
 	    	break;
 	    case 8:
 	    	result = tan(a*pi) / (7 - 2*b);
