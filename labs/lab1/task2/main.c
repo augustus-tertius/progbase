@@ -73,10 +73,10 @@ int main(void) {
 			
 		if(result == 0)	{
 			printf("Result is false\n"); 
-			} else {
+		} else {
 			printf("Result is true\n");
-			}
 		}
+	}
 				
 	return 0;
 }
