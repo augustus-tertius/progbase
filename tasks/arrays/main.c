@@ -113,9 +113,7 @@ int main(void)
         	printf("%i\t", a[i]);
         }
      }   
-     printf("\n\n");
+    printf("\n\n");
     
-    
-
     return 0;
 }

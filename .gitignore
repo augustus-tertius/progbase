@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 # Prerequisites
 *.d
 
+=======
+>>>>>>> d8d244b6bf5cc701cb32a65b33354dc4e90965a4
 # Object files
 *.o
 *.ko
@@ -33,4 +36,10 @@
 
 # Debug files
 *.dSYM/
+<<<<<<< HEAD
 *.su
+=======
+
+# GEdit
+*~
+>>>>>>> d8d244b6bf5cc701cb32a65b33354dc4e90965a4
