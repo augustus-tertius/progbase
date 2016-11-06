@@ -33,7 +33,10 @@ int main(void) {
 	}
 	
 	puts(text);
-	printf("\nQuantity of characters: %i \n\n", i);
+	
+	conSetAttr(FG_MAGENTA);
+        printf("Кількість символів: %i\n\n", i);
+        conReset();
 	
 	
 	
@@ -53,7 +56,9 @@ int main(void) {
 	}
 	
 	puts("");
-	printf("\nQuantity of characters: %i \n\n", count);
+	conSetAttr(FG_MAGENTA);
+        printf("Кількість символів: %i\n\n", count);
+        conReset();
 	
 	
 	
@@ -107,8 +112,10 @@ int main(void) {
 			count++;
 		}
 	}
-	printf("Кількість слів у тексті: %i\n\n", count);
 	
+	conSetAttr(FG_MAGENTA);
+	printf("Кількість слів у тексті: %i\n\n", count);
+	conReset();
 	
 	
 	/* task 5 */
