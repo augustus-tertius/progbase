@@ -1,0 +1,36 @@
+Lecture course № 1
+course name: lsdkfj
+lecturer`s surname:  sldkf
+lecturer`s name: lskdjf
+lecturer`s middle name: lkdsfj
+lecturer`s age: 34
+course length: 6
+course rating: 7.000000
+
+Lecture course № 2
+course name: Культура сучасного кіно
+lecturer`s surname:  Еременко
+lecturer`s name: Арсеній
+lecturer`s middle name: Арнольдович
+lecturer`s age: 45
+course length: 18
+course rating: 3.900000
+
+Lecture course № 3
+course name: Культура сучасного кіно
+lecturer`s surname:  Еременко
+lecturer`s name: Арсеній
+lecturer`s middle name: Арнольдович
+lecturer`s age: 45
+course length: 18
+course rating: 3.900000
+
+Lecture course № 4
+course name: Електротехніка
+lecturer`s surname:  Бужко
+lecturer`s name: Олена
+lecturer`s middle name: Миколаївна
+lecturer`s age: 51
+course length: 48
+course rating: 4.800000
+
