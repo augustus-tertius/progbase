@@ -2,9 +2,9 @@
 28 			 Bolik
 26 			 Lolik
 21 			 Miaukalo
-20       Murmur
-19       Ustriza
-17       Batman
+20       		 Murmur
+19       		 Ustriza
+17       		 Batman
 15 			 Santa
 13 			 August
-12 			 Zrada
+10 			 Zrada
